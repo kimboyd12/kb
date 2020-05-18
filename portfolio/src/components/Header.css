@@ -1,25 +1,28 @@
 .header {
     display: flex;
+    background-color: #b0b0b0;
+    padding-bottom: 20px;
 }
 
 .personal img {
     width: 100px;
     border-radius: 50%;
+    border: 1px solid black;
 }
 
 .personal .name { 
     margin-left: 20px;
     display:flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 5px;
+    align-items: flex-start;
+    margin-top: 3px;
 }
 
 .personal {
     display: flex;
     width: 50%;
     padding-left: 100px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .personal p {
@@ -31,7 +34,7 @@
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 15px;
 
 }
 
@@ -44,5 +47,5 @@
 }
 
 a:hover {
-    color: #66b3ff
+    color:white;
 }

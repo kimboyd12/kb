@@ -14,10 +14,12 @@ export default function Header() {
             </div>
 
             <div className="navigation">
-                <a>About</a>
-                <a href="https://www.github.com/kimboyd12">GitHub</a>
-                <a>kimberlyboyd2@gmail.com</a>
+                <a>ABOUT</a>
+                <a href="https://www.github.com/kimboyd12">
+                    GITHUB</a>
+                <a>WORK</a>
             </div>
+
         </div>
     )
 }

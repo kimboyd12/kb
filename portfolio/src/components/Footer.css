@@ -1,0 +1,30 @@
+
+
+.footer {
+    background-color: #b0b0b0;
+    padding: 20px;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+}
+
+.footer-nav p {
+    font-weight: bold;
+    
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a:hover {
+    color: white;
+}
