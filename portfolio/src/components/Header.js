@@ -4,7 +4,7 @@ import "./Header.css";
 
 export default function Header() {
     return(
-        <div className="header">
+        <div id="header">
             <div className="personal">
                 <img src={kim} alt="kim" />
                 <div className="name">
@@ -14,7 +14,7 @@ export default function Header() {
             </div>
 
             <div className="navigation">
-                <a>ABOUT</a>
+                <a href="#about">ABOUT</a>
                 <a href="https://www.github.com/kimboyd12">
                     GITHUB</a>
                 <a>WORK</a>

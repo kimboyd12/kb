@@ -7,13 +7,13 @@ export default function Footer () {
             <div className="footer-nav">
                 <p>LET'S CONNECT!</p>
                 <div className="nav-links">
-                <a>GITHUB</a>
-                <a>LINKEDIN</a>
-                <a>INSTAGRAM</a>
-                <a>EMAIL</a>
+                <a href="https://www.github.com/kimboyd12">GITHUB</a>
+                <a href="https://www.linkedin.com/in/kim-boyd/">LINKEDIN</a>
+                <a href="https://instagram.com/__kmbrly">INSTAGRAM</a>
+                <a href="mailto:kimberlyboyd2@gmail.com">EMAIL</a>
                 </div>
             </div>
-            <a href=".header">RETURN TO TOP</a>
+            <a href="#header">RETURN TO TOP</a>
         </div>
     )
 }
