@@ -1,0 +1,35 @@
+.body {
+    display: flex;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 1.6rem;
+}
+
+.body .hello {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.hello p {
+    margin-top: -1px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.chat {
+    display: flex;
+
+}
+
+.chat a {
+    font-size: 1.2rem;
+    margin-left: 7px;
+    margin-top:-1px;
+    color: #66b3ff;
+    text-decoration: underline;
+}
