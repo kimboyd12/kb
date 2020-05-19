@@ -1,13 +1,15 @@
 #header {
     display: flex;
-    background-color: #b0b0b0;
-    padding-bottom: 20px;
+    background-color: #353434;
+    padding-bottom: 45px;
+    color:white;
+    padding-top:20px;
 }
 
 .personal img {
     width: 100px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .personal .name { 
@@ -42,10 +44,13 @@
     display:flex;
     flex-direction: row;
     text-decoration: none;
-    color: black;
-
-}
-
-a:hover {
     color:white;
+    font-size: 1.1rem;
+
 }
+
+.navigation a:hover {
+    color: #66b3ff;
+}
+
+
